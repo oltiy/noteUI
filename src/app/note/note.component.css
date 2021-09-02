@@ -1,0 +1,15 @@
+.modal-content {
+  background-color: #ffe4e1;
+}
+
+.bg-secondary {
+  /* background-color: #6c757d!important; */
+  background-color: white !important;
+}
+
+input {
+  border: none;
+  background: transparent;
+  border-bottom: none;
+  outline: none;
+}

@@ -1,0 +1,6 @@
+<div>
+    <div *ngFor="let note of notes">
+        <app-note [note]=note [placeholderText]=placeholderText (removeNote)="noteToRemove($event)"
+            (updateNote)="updateNote($event)"></app-note>.
+    </div>
+</div>
